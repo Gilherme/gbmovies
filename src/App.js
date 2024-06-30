@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner";
+import Card from "./components/Card";
+import Carrosel from "./components/Carrosel";
+import Categoria from "./components/Categoria";
+import Container from "./components/Container";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import videos from "./json/movies.json"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Banner image="favoritos" />
+      <Container>
+
+        <Categoria titulo_categoria="Documentários">
+
+          <Carrosel>
+            {
+            videos.map(video => {
+              return <Card id={video.id} key={video.id} />
+            })
+            }
+          </Carrosel>
+
+        </Categoria>
+
+      </Container>
+      <Footer />
+    </>
   );
 }
 
