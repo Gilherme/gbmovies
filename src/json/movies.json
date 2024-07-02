@@ -1,82 +1,82 @@
 [
   {
     "id": "gPSk0Xjz0og",
-    "titulo": "Albert Einstein",
-    "categoria": "Biografias"
+    "title": "Albert Einstein",
+    "category": "Biographies"
   }, 
   {
-    "id": "3iGPclknn" ,
-    "titulo": "Leonardo Da Vince",
-    "categoria": "Biografias"
+    "id": "3iGPclknn_8" ,
+    "title": "Leonardo Da Vince",
+    "category": "Biographies"
   },
   {
     "id": "pYP7OGTdYY8",
-    "titulo": "Nikola Tesla",
-    "categoria": "Biografias"
+    "title": "Nikola Tesla",
+    "category": "Biographies"
   },
   {
     "id": "FRIu3c5j4X0",
-    "titulo": "Bill Gates",
-    "categoria": "Biografias"
+    "title": "Bill Gates",
+    "category": "Biographies"
   },
   {
-    "id":  "jUb6jH-Zo",
-    "titulo": "Elon Musk",
-    "categoria": "Biografias"
+    "id":  "jUb6jH-Zo_k",
+    "title": "Elon Musk",
+    "category": "Biographies"
   },
 
   
   {
     "id": "pHO7DNgw3ec",
-    "titulo": "Documentário BBC: Com o que estamos alimentando nossos filhos?",
-    "categoria": "Documentarios"
+    "title": "Documentário BBC: Com o que estamos alimentando nossos filhos?",
+    "category": "Documentaries"
   },
   {
     "id": "JbjlyC_r0Nw",
-    "titulo": "Documentário BBC: O mito da reciclagem",
-    "categoria": "Documentarios"
+    "title": "Documentário BBC: O mito da reciclagem",
+    "category": "Documentaries"
   },
   {
     "id": "zsC3u2861C4",
-    "titulo": "A historia da economia do Brasil",
-    "categoria": "Documentarios"
+    "title": "A historia da economia do Brasil",
+    "category": "Documentaries"
   },
   {
     "id": "cyu7zVzIq-s",
-    "titulo": "O sistema monetário",
-    "categoria": "Documentarios"
+    "title": "O sistema monetário",
+    "category": "Documentaries"
   },
   {
     "id": "yW6RU3HZhDw",
-    "titulo": "PCC A MAIOR FACÇÃO DO BRASIL DOCUMENTÁRIO 2020",
-    "categoria": "Documentarios"
+    "title": "PCC A MAIOR FACÇÃO DO BRASIL DOCUMENTÁRIO 2020",
+    "category": "Documentaries"
   },
 
   
   {
     "id": "YDtgIHeHZTk",
-    "titulo": "Inteligência artificial: curso comemorativo dos 90 anos da USP",
-    "categoria": "Cursos"
+    "title": "Inteligência artificial: curso comemorativo dos 90 anos da USP",
+    "category": "Courses"
   },
   {
     "id": "8G80nuEyDN4",
-    "titulo": "O Guia +Hardcore de Introdução à COMPUTAÇÃO",
-    "categoria": "Cursos"
+    "title": "O Guia +Hardcore de Introdução à COMPUTAÇÃO",
+    "category": "Courses"
   },
   {
     "id": "hYJ3dvHjeOE",
-    "titulo": "Aprendendo sobre Computadores com Super Mario (do jeito Hardcore++)",
-    "categoria": "Cursos"
+    "title": "Aprendendo sobre Computadores com Super Mario (do jeito Hardcore++)",
+    "category": "Courses"
   },
   {
     "id": "G4MvFT8TGII",
-    "titulo": "O Computador de Turing e Von Neumann | Por que calculadoras não são computadores?",
-    "categoria": "Cursos"
+    "title": "O Computador de Turing e Von Neumann | Por que calculadoras não são computadores?",
+    "category": "Courses"
   },
   {
     "id": "oSCVb4Ts-G4",
-    "titulo": "Qual a REAL diferença entre Arquivos Binário e Texto??",
-    "categoria": "Cursos"
+    "title": "Qual a REAL diferença entre Arquivos Binário e Texto??",
+    "category": "Courses"
   }
  
 ]

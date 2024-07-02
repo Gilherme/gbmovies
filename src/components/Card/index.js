@@ -6,7 +6,7 @@ function Card({ id }){
       <a  href={`https://www.youtube.com/watch?v=${id}`}
           rel="noreferrer noopener"
           target='_blank'>
-          <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+          <img src={`https://img.youtube.com/vi/${id}/default.jpg`}
                alt='capa'>
           </img>
       </a>
