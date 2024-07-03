@@ -4,8 +4,7 @@ function Header(){
     <header className={styles.header}>
       <span>GB Movies</span>
       <nav >
-        <a href="#">Home</a>
-        <a href="#">Assistir</a>
+      
       </nav>
     </header>
   );

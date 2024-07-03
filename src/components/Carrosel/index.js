@@ -4,9 +4,7 @@ function Carrosel({children}){
   return(
     <section className={styles.carrosel}>
       {children}
-      {/* <Card></Card>
-      <Card></Card>
-      <Card></Card> */}
+    
     </section>
   );
 }
