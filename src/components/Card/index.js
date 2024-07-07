@@ -1,15 +1,15 @@
+import { Link } from 'react-router-dom';
 import styles from './Card.module.css'
 
 function Card({ id }){
   return(
     <section className={styles.card}>
-      <a  href={`https://www.youtube.com/watch?v=${id}`}
-          rel="noreferrer noopener"
-          target='_blank'>
-          <img src={`https://img.youtube.com/vi/${id}/default.jpg`}
-               alt='capa'>
+      <Link to={`/whatch/${id}`} > 
+          <img 
+            src={`https://img.youtube.com/vi/${id}/default.jpg`}
+              alt='capa'>
           </img>
-      </a>
+      </Link>
     </section>
   );
 }
