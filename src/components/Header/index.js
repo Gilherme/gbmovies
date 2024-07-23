@@ -9,6 +9,7 @@ function Header(){
       <nav >
         <Link to="/"> Home </Link>
         <Link to="/whatch"> watch </Link>
+        <Link to="/search"> Search </Link>
       </nav>
     </header>
   );
