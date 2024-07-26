@@ -1,0 +1,10 @@
+.searchVideoList{
+    width: 100%;
+}
+
+.searchVideoList input{
+    width: 300px;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 5px 8px; 
+}
