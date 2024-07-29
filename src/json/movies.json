@@ -15,6 +15,11 @@
     "category": "Biographies"
   },
   {
+    "id": "8F3RbX5JGxU",
+    "title": "Confissões, de Santo Agostinho | Tatiana Feltrin",
+    "category": "Biographies"
+  },
+  {
     "id": "FRIu3c5j4X0",
     "title": "Bill Gates",
     "category": "Biographies"
@@ -34,6 +39,11 @@
   {
     "id": "JbjlyC_r0Nw",
     "title": "Documentário BBC: O mito da reciclagem",
+    "category": "Documentaries"
+  },
+  {
+    "id": "LQlxyE2_vtE",
+    "title": "DESERTO DO SAARA | Uma Terra de Extremos",
     "category": "Documentaries"
   },
   {
@@ -77,7 +87,11 @@
     "id": "oSCVb4Ts-G4",
     "title": "Qual a REAL diferença entre Arquivos Binário e Texto??",
     "category": "Courses"
+  },
+  {
+    "id": "Ze-Q6ZNWpco",
+    "title": "Curso de Inteligência Artificial para todos",
+    "category": "Courses"
   }
- 
 ]
  
