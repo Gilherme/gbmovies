@@ -1,7 +1,7 @@
 
 import Banner from "../../components/Banner";
 import Card from "../../components/Card";
-import Carrosel from "../../components/Carrosel";
+import Carousel from "../../components/Carousel";
 import Category, { categories, filterCategory } from "../../components/Category";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
@@ -18,13 +18,12 @@ function Home() {
         {
           categories.map((category, index) =>
             <Category category_title={category} key={index}>
-              <Carrosel key={index}>
-                {filterCategory(index).map(video => { return <Card id={video.id} key={video.id} /> })}
-              </Carrosel>
+              <Carousel key={index}>
+                {filterCategory(index).map(video => { return <Card id={video.id} title={video.title} key={video.id} /> })}
+              </Carousel>
             </Category>
           )
         }
-
       </Container>
       <Footer />
     </>
