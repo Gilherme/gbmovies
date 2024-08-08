@@ -7,7 +7,7 @@ export function filterCategory(id){
   return videos.filter( video => video.category === categories[id])
 }
 
-function Categoria({category_title, children}){
+function Category({category_title, children}){
   return(
     <section className={styles.category}>
       <h2>{category_title}</h2>
@@ -16,4 +16,4 @@ function Categoria({category_title, children}){
   );
 }
 
-export default Categoria;
+export default Category;

@@ -2,6 +2,7 @@
   display: flex;
   margin: 0 1rem;
   flex-direction: column;
+  position: relative;
 }
 
 .card a{
@@ -28,4 +29,18 @@
 .card img:hover{
   transform: scale(1.1);
   transition-duration: .2s;
+}
+
+.iconeFavorite{
+  position: absolute;
+  right: 8px;
+  bottom: 18%;
+  background-color: #00000050;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.iconeFavorite img{
+  width: 35px;
+  height: 35px;
 }
