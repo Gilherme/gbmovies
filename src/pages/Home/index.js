@@ -19,7 +19,7 @@ function Home() {
           categories.map((category, index) =>
             <Category category_title={category} key={index}>
               <Carousel key={index}>
-                {filterCategory(index).map(video => { return <Card id={video.id} title={video.title} key={video.id} /> })}
+                {filterCategory(index).map(video => (<Card id={video.id} title={video.title} key={video.id} /> ))}
               </Carousel>
             </Category>
           )

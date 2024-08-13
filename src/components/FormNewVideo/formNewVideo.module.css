@@ -1,0 +1,65 @@
+.formNewVideo{
+    background-color: #0009;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formNewVideo h2{
+    margin-top: 20px;
+}
+
+.form div{
+    min-width: 300px;
+    max-width: 64%;
+    margin: 20px auto;
+}
+
+.form input, form label{
+    display: block;
+}
+
+.form label {
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+}
+
+.form input, .form select{
+    outline-color: red;
+    width: 100%;
+    line-height: 2.2rem;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.form option{
+    padding-bottom: .5rem;
+}
+
+.form select{
+    height: 2.2rem;
+}
+
+.form button{
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    background-color: rgb(203, 3, 3);
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: red;
+}
+
+.error, .success{
+    border-radius: .5rem;
+    font-size: 1.1rem;
+}
+.error{
+    background-color: red;
+}
+.success{
+    background-color: green;
+}
