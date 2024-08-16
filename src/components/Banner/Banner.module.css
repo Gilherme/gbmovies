@@ -5,6 +5,6 @@
   /* background-image: url('/public/images/banner-home.png'); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
   margin-bottom: -70px;
 }
